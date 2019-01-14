@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+ 
+{% block content %}
+  <h2>Balanço</h2>
+
+  <div>
+    
+    {{ form.hidden_tag() }}
+ 
+    <h3>
+      <br/>
+    Saldo disponível (R$):
+    {{ form.disponivel }}
+      <br/>
+      <br/>
+    Saldo transferido (R$):
+    {{ form.transferido }}
+      <br/>
+      <br/>
+    Saldo a receber (R$):
+    {{ form.receber }}
+      </h3>
+  </div>
+{% endblock %}

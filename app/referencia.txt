@@ -1,0 +1,26 @@
+Ferramentas utilizadas:
+
+VIRTUALENV
+
+FLASK
+
+FLASK-WTF
+
+pip install virtualenv
+
+pip install requests==2.18.2
+pip install Flask
+pip install Flask-WTF
+pip install pagarme-python
+
+http://127.0.0.1:5000/
+
+https://code.tutsplus.com/pt/tutorials/an-introduction-to-pythons-flask-framework--net-28822
+
+https://www.vivaolinux.com.br/artigo/Python-Flask-Basico
+
+https://code.tutsplus.com/tutorials/intro-to-flask-adding-a-contact-page--net-28982?_ga=2.181239399.1338166407.1547216813-1488818574.1547216813
+
+https://code.tutsplus.com/tutorials/intro-to-flask-signing-in-and-out--net-29982?_ga=2.181239399.1338166407.1547216813-1488818574.1547216813
+
+https://github.com/lepture/flask-wtf

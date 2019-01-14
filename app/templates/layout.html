@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Flask e Pagar.me</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">;
+      <link rel="shortcut icon" href="../static/img/favicon.ico" />
+  </head>
+  <body>
+   
+    <header>
+      <div class="container">
+        <a href="{{ url_for('home') }}">
+        <h1 class="logo">Flask e Pagar.me</h1>
+          </a>
+        <strong><nav>
+        <ul class="menu">
+            <li><a href="{{ url_for('home') }}">Inicio</a></li>
+            <li><a href="{{ url_for('transaction') }}">Transação</a></li>
+            <li><a href="{{ url_for('balance') }}">Saldo</a></li>
+            <li><a href="{{ url_for('about') }}">Sobre</a></li>
+        </ul>
+    </nav></strong>
+      </div>
+    </header> 
+     
+    <div class="container">
+      {% block content %}
+      {% endblock %}
+    </div>
+     
+  </body>
+</html>
